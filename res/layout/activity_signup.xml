@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sweetmorning"
+    tools:context="com.example.alina.hciprojectdiabetes.SignupActivity">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:src="@drawable/glucopalicon1"
+            android:contentDescription="@string/icon"
+            android:id="@+id/imagelogo2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/signup_name"
+            android:inputType="textCapWords"
+            android:layout_below="@id/imagelogo2"
+            android:hint="@string/Name"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/signup_email"
+            android:inputType="textEmailAddress"
+            android:hint="@string/Email"
+            android:layout_below="@id/signup_name"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/signup_password"
+            android:inputType="textPassword"
+            android:hint="@string/Password"
+            android:layout_below="@id/signup_email"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/signup_Button"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="@string/Signup"
+            android:layout_below="@id/signup_password"
+            />
+
+        <TextView
+            android:id="@+id/login_link"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/AlreadyMember"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:layout_below="@id/signup_Button"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

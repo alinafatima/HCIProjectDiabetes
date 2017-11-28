@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">GlucoPal</string>
+    <string name="backgroundImageName">SweetMorning</string>
+    <string name="icon">GlucoPalIcon</string>
+    <string name="Login">Login</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Signup">SignUp</string>
+    <string name="Name">Name</string>
+    <string name="Password">Password</string>
+    <string name="NoAccountYet">No account yet? Sign up</string>
+    <string name="AlreadyMember">Already a member? Login</string>
+    <string name="Email">Email</string>
+    <string name="normalGlucoseValue">110 mg/dL</string>
+    <string name="glucoseEntry">Blood Sugar\nTap to add </string>
+    <string name="calorieEntry"> Calories\n50g of 150g</string>
+    <string name="stepsEntry">Steps\n200 of 1500\n steps</string>
+    <string name="dailychallenge">Daily\nChallenge\n</string>
+    <string name="motivationOftheDay">Motivation of the Day</string>
+    <string name="button_send1">one</string>
+    <string name="button_send2">two</string>
+    <string name="button_send3">three</string>
+    <string name="enter_glucose">Please enter your blood sugar reading.</string>
+    <string name="enter_calories">Please enter your calorie intake.</string>
+    <string name="glucode_units">mg/dL</string>
+    <string name="calorie_units">g</string>
+    <string name="enter_time">Enter Time</string>
+    <string name="yearly">Yearly</string>
+    <string name="monthly">Monthly</string>
+    <string name="weekly">Weekly</string>
+    <string name="done">Done</string>
+    <string-array name="time_glucose_entry">
+        <item>Fasting</item>
+        <item>Before Breakfast</item>
+        <item>After Breakfast</item>
+        <item>Before Lunch</item>
+        <item>After Lunch</item>
+        <item>Before Dinner</item>
+        <item>After Dinner</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
